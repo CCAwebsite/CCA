@@ -200,7 +200,9 @@
     <Compile Include="Controllers\ArtsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\NewsController.cs" />
     <Compile Include="Controllers\ParentsController.cs" />
+    <Compile Include="Controllers\ResourcesController.cs" />
     <Compile Include="Controllers\StudentsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -300,6 +302,16 @@
     <Content Include="Views\Students\PrepforSeniorYear.cshtml" />
     <Content Include="Views\Students\SeniorFAQ.cshtml" />
     <Content Include="Views\Students\Testing.cshtml" />
+    <Content Include="Views\Resources\Calendar.cshtml" />
+    <Content Include="Views\Resources\UsefulWebsites.cshtml" />
+    <Content Include="Views\Resources\TransitionMeeting.cshtml" />
+    <Content Include="Views\Resources\SupplyLists.cshtml" />
+    <Content Include="Views\Resources\SummerReadingLists.cshtml" />
+    <Content Include="Views\Resources\PowerSchool.cshtml" />
+    <Content Include="Views\Resources\GovernorsSchool.cshtml" />
+    <Content Include="Views\News\Newsletters.cshtml" />
+    <Content Include="Views\News\IntheNews.cshtml" />
+    <Content Include="Views\News\Alumni.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
